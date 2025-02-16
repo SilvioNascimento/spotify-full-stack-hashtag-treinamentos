@@ -1,7 +1,7 @@
-const Artists = () => {
-  return (
-    <div>Artists</div>
-  )
-}
+import Main from "../components/Main";
 
-export default Artists
+const Artists = () => {
+  return <Main type="artists" />;
+};
+
+export default Artists;
